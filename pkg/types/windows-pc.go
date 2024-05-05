@@ -11,7 +11,7 @@ type WindowsPC struct {
 
 func (pc *WindowsPC) Scan() {
 	pc.scanner.ScanFile()
-	fmt.Println("Scanning Linux PC")
+	fmt.Println("Scanning Windows PC")
 }
 
 func (pc *WindowsPC) AddScanner(scanner base.Scanner) {
